@@ -26,105 +26,143 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ---
 
-## <a name="parte1"></a>
+## <a name="parte1">Introdução</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte2"></a>
+## <a name="parte2">Entendendo CSS na prática</a>
+
+```html
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: red ;
+        }
+        footer{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <div><a href="">LogoMarca</a></div>
+    </div>
+</header>
+<main>
+    <section>
+        <h1>Conteúdo</h1>
+        <p>Um texto qualquer</p>
+    </section>
+</main>
+<footer>
+    <div>
+        <p>&copy; Todos os direitos reservados</p>
+    </div>
+</footer>
+</body>
+</html>
+```
+
+[Voltar ao Índice](#indice)
+
+---
+
+## <a name="parte3">Seletores CSS</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte3"></a>
+## <a name="parte4">Relacionamento de seletores</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte4"></a>
+## <a name="parte5">Prioridade de substituição</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte5"></a>
+## <a name="parte6">Pseudo-seletores</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte6"></a>
+## <a name="parte7">Exemplo prático links</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte7"></a>
+## <a name="parte8">Outros seletores interessantes</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte8"></a>
+## <a name="parte9">Folhas de estilos externas</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte9"></a>
+## <a name="parte10">Fontes</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte10"></a>
+## <a name="parte11">Margem e borda</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte11"></a>
+## <a name="parte12">Display e visibilidade</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte12"></a>
+## <a name="parte13">Posicionamento</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte13"></a>
+## <a name="parte14">Exemplo prático menu</a>
 
 
 [Voltar ao Índice](#indice)
 
 ---
 
-## <a name="parte14"></a>
-
-
-[Voltar ao Índice](#indice)
-
----
-
-## <a name="parte15"></a>
+## <a name="parte15">Exemplo prático formulário</a>
 
 
 [Voltar ao Índice](#indice)
