@@ -80,12 +80,56 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte3">Seletores CSS</a>
 
+```html
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #header{
+            background-color: red ;
+        }
+        #footer{
+            background-color: green;
+        }
+        .logomarca{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <div>
+        <div class="logomarca">
+            <a href="">LogoMarca</a>
+        </div>
+    </div>
+</header>
+<main id="main">
+    <section>
+        <h1>Conteúdo</h1>
+        <p>Um texto qualquer</p>
+    </section>
+</main>
+<footer id="footer">
+    <div>
+        <p>&copy; Todos os direitos reservados</p>
+    </div>
+</footer>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
 ---
 
 ## <a name="parte4">Relacionamento de seletores</a>
+
 
 
 [Voltar ao Índice](#indice)
