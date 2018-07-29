@@ -130,6 +130,20 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte4">Relacionamento de seletores</a>
 
+```css
+        #footer > .logomarca {
+            color: white;
+        }
+```
+
+```html
+<footer id="footer">
+    <section>
+        <p class="logomarca">&copy; Todos os direitos reservados</p>
+    </section>
+    <a class="logomarca">&copy; Todos os direitos reservados</a>
+</footer>
+```
 
 
 [Voltar ao Índice](#indice)

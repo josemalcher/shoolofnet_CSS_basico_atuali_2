@@ -7,14 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        #header{
-            background-color: red ;
+        #header {
+            background-color: red;
         }
-        #footer{
+
+        #footer {
             background-color: green;
         }
-        .logomarca{
+
+        .logomarca {
             background-color: blue;
+        }
+
+        #footer > .logomarca {
+            color: white;
         }
     </style>
 </head>
@@ -33,9 +39,10 @@
     </section>
 </main>
 <footer id="footer">
-    <div>
-        <p>&copy; Todos os direitos reservados</p>
-    </div>
+    <section>
+        <p class="logomarca">&copy; Todos os direitos reservados</p>
+    </section>
+    <a class="logomarca">&copy; Todos os direitos reservados</a>
 </footer>
 </body>
 </html>
