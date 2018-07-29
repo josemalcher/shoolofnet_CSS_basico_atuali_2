@@ -152,6 +152,40 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte5">Prioridade de substituição</a>
 
+```css
+ /*
+            tag
+            classe
+            id      <- Mais específico
+        */
+        .header a{
+            color: blue;
+        }
+        header a{
+            color:red;
+        }
+        #header div div a{
+            background-color: blueviolet;
+            color: gray;
+        }
+        #header div div a{
+            background-color: white;
+            color: green;
+        }
+        #header a{
+            color: yellow;
+        }
+```
+
+```html
+<header class="header" id="header">
+    <div>
+        <div>
+            <a href="" class="logomarca">LogoMarca</a>
+        </div>
+    </div>
+</header>
+```
 
 [Voltar ao Índice](#indice)
 
