@@ -232,6 +232,58 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte7">Exemplo prático links</a>
 
+```html
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 10px;
+        }
+
+        .btn{
+            background-color: darkgray;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background-color: gray;
+        }
+        .btn.btn-red{
+            background-color: darkred;
+            color: #fff;
+        }
+        .btn-red:hover{
+            background-color: red;
+        }
+
+        .btn.btn-blue{
+            background-color: blue;
+            color: #fff;
+        }
+        .btn-blue:hover{
+            background-color: #2980b9;
+        }
+
+    </style>
+</head>
+<body>
+
+    <a class="btn btn-red" href="">item 1</a>
+    <a class="btn btn-blue" href="">item 2</a>
+    <a class="btn" href="">item 3</a>
+    <a class="btn" href="">item 5</a>
+
+</body>
+</html>
+```
 
 
 [Voltar ao Índice](#indice)
