@@ -8,29 +8,25 @@
     <title>Document</title>
     <style>
 
-        /*
-            tag
-            classe
-            id - Mais específico
-        */
-        .header a{
-            color: blue;
-        }
-        header a{
-            color:red;
-        }
-        #header div div a{
-            background-color: blueviolet;
-            color: gray;
-        }
-        #header div div a{
-            background-color: white;
+        a {
             color: green;
         }
-        #header a{
+
+        a:hover {
+            color: red;
+        }
+        a:active {
             color: yellow;
         }
+        a:focus {
+            color: blue;
+        }
+        input:focus{
 
+        }
+        div:focus-within{
+            background-color: darkred;
+        }
 
     </style>
 </head>
@@ -39,6 +35,7 @@
     <div>
         <div>
             <a href="" class="logomarca">LogoMarca</a>
+            <input type="text">
         </div>
     </div>
 </header>

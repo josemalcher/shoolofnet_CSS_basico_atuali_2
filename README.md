@@ -193,12 +193,45 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte6">Pseudo-seletores</a>
 
+```css
+  a {
+            color: green;
+        }
+
+        a:hover {
+            color: red;
+        }
+        a:active {
+            color: yellow;
+        }
+        a:focus {
+            color: blue;
+        }
+        input:focus{
+
+        }
+        div:focus-within{
+            background-color: darkred;
+        }
+```
+
+```html
+<header class="header" id="header">
+    <div>
+        <div>
+            <a href="" class="logomarca">LogoMarca</a>
+            <input type="text">
+        </div>
+    </div>
+</header>
+```
 
 [Voltar ao Índice](#indice)
 
 ---
 
 ## <a name="parte7">Exemplo prático links</a>
+
 
 
 [Voltar ao Índice](#indice)
