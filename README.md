@@ -292,6 +292,30 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte8">Outros seletores interessantes</a>
 
+```css
+  * {
+            border: 1px solid red;
+        }
+
+
+        header + main{
+            border: 5px solid blue;
+        }
+
+        header ~ main{ /* menos restritivo */
+            border: 5px solid blue;
+        }
+        a[title]{
+            color: red;
+        }
+        a[title='item 1']{
+            color: lime;
+        }
+        a[class*="btn"]{
+
+        }
+
+```
 
 [Voltar ao Índice](#indice)
 

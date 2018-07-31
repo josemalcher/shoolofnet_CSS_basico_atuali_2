@@ -7,44 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        body{
-            padding: 10px;
+        /*reset*/
+        * {
+            border: 1px solid red;
         }
 
-        .btn{
-            background-color: darkgray;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 10px;
-        }
-        .btn:hover{
-            background-color: gray;
-        }
-        .btn.btn-red{
-            background-color: darkred;
-            color: #fff;
-        }
-        .btn-red:hover{
-            background-color: red;
+
+        header + main{
+            border: 5px solid blue;
         }
 
-        .btn.btn-blue{
-            background-color: blue;
-            color: #fff;
+        header ~ main{ /* menos restritivo */
+            border: 5px solid blue;
         }
-        .btn-blue:hover{
-            background-color: #2980b9;
+        a[title]{
+            color: red;
+        }
+        a[title='item 1']{
+            color: lime;
+        }
+        a[class*="btn"]{
+
         }
 
     </style>
 </head>
 <body>
+<header id="header">
+    <div>
+        <div class="logomarca">
+            <a href="">LogoMarca</a>
+        </div>
+    </div>
+</header>
+<main id="main">
+    <section>
+        <h1>Conteúdo</h1>
+        <p>Um texto qualquer</p>
+        <p>
+            <a class="btn-red" href="" title="item 1">item 1</a>
+            <a class="btn-blue" href="">item 2</a>
+        </p>
+    </section>
+</main>
+<footer id="footer">
+    <div>
+        <p>&copy; Todos os direitos reservados</p>
+    </div>
+</footer>
 
-    <a class="btn btn-red" href="">item 1</a>
-    <a class="btn btn-blue" href="">item 2</a>
-    <a class="btn" href="">item 3</a>
-    <a class="btn" href="">item 5</a>
 
 </body>
 </html>
