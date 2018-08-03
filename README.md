@@ -350,6 +350,19 @@ header ~ main{ /* menos restritivo */
 
 ## <a name="parte10">Fontes</a>
 
+- https://fonts.google.com/
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed');
+body{
+    padding: 10px;
+    background-color: white;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+```
+
 
 [Voltar ao Índice](#indice)
 
