@@ -396,6 +396,18 @@ body{
 
 ## <a name="parte12">Display e visibilidade</a>
 
+```css
+#display *{
+    display: inline;
+}
+
+#table{
+    /*visibility: hidden;*/
+    /*opacity: 50%;*/
+    display: none;
+}
+
+```
 
 [Voltar ao Índice](#indice)
 

@@ -18,3 +18,13 @@ body{
     border-radius: 10px;
 }
 
+#display *{
+    display: inline;
+}
+
+#table{
+    /*visibility: hidden;*/
+    /*opacity: 50%;*/
+    display: none;
+}
+
