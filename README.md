@@ -441,6 +441,74 @@ body{
 
 ## <a name="parte14">Exemplo prático menu</a>
 
+```html
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <nav class="horizontal">
+        <ul>
+            <li><a href="">Item 1x</a></li>
+            <li><a href="">Item 2x</a></li>
+            <li><a href="">Item 3x</a></li>
+            <li><a href="">Item 4x</a></li>
+            <li><a href="">Item 5x</a></li>
+        </ul>
+    </nav>
+</div>
+<div style="width: 30%" >
+    <nav class="vertical">
+        <ul>
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+            <li><a href="">Item 4</a></li>
+            <li><a href="">Item 5</a></li>
+        </ul>
+    </nav>
+</div>
+
+</body>
+</html>
+```
+
+```css
+nav, nav *{
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.7);
+    text-decoration: underline;
+}
+
+nav.horizontal ul li{
+    display: inline-block;
+}
+
+
+```
 
 [Voltar ao Índice](#indice)
 

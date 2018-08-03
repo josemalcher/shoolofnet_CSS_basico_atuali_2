@@ -1,40 +1,26 @@
-@import "botoes.css";
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed');
-/*reset*/
-/** {
-    border: 1px solid red;
-}*/
-body{
-    padding: 10px;
-    background-color: white;
-    font-family: 'Encode Sans Semi Condensed', sans-serif;
+nav, nav *{
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
 }
 
-.box{
-    background-color: #fff;
-    margin: 20px 60px 90px 120px;
-    padding: 20px 60px 90px 120px;
-    border: 3px solid black;
-    border-radius: 10px;
-    position: relative;
+nav ul li a{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
-#display *{
-    display: inline;
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.7);
+    text-decoration: underline;
 }
 
-#table{
-    /*visibility: hidden;*/
-    /*opacity: 50%;*/
-    display: none;
+nav.horizontal ul li{
+    display: inline-block;
 }
 
-#modal{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    background-color: rgba(0, 0, 0, .7);
-}
