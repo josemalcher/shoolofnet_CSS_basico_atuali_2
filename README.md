@@ -416,6 +416,25 @@ body{
 ## <a name="parte13">Posicionamento</a>
 
 
+```css
+#modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .7);
+}
+```
+
+```html
+<div class="box">
+    QUADRADO
+    <div id="modal">MODAL</div>
+</div>
+```
+
 [Voltar ao Índice](#indice)
 
 ---
