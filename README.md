@@ -370,6 +370,25 @@ body{
 
 ## <a name="parte11">Margem e borda</a>
 
+```css
+.box{
+    background-color: #fff;
+    margin: 20px 60px 90px 120px;
+    padding: 20px 60px 90px 120px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+```
+
+```html
+<div>
+    <a class="btn-red" href="" title="item 1">item 1</a>
+    <a class="btn-blue" href="">item 2</a>
+</div>
+<div class="box">
+    QUADRADO
+</div>
+```
 
 [Voltar ao Índice](#indice)
 

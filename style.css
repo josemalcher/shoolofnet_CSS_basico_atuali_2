@@ -1,22 +1,20 @@
 @import "botoes.css";
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed');
 /*reset*/
-* {
+/** {
     border: 1px solid red;
-}
+}*/
 body{
     padding: 10px;
     background-color: white;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
 }
 
-
-header + main{
-    border: 5px solid blue;
+.box{
+    background-color: #fff;
+    margin: 20px 60px 90px 120px;
+    padding: 20px 60px 90px 120px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
-header ~ main{ /* menos restritivo */
-    border: 5px solid blue;
-}

@@ -1,9 +1,29 @@
+a[class*="btn"]{
+    display: inline-block;
+    background-color: white;
+    color: #7f8c8d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
 a[title]{
-    color: red;
+    color: red !important;
 }
 a[title='item 1']{
-    color: lime;
+    color: lime !important;
 }
-a[class*="btn"]{
+.btn.btn-red{
+    background-color: darkred !important;
+    color: #fff !important;
+}
+.btn-red:hover{
+    background-color: red !important;
+}
 
+.btn.btn-blue{
+    background-color: blue !important;
+    color: #fff !important;
+}
+.btn-blue:hover{
+    background-color: #2980b9 !important;
 }
