@@ -1,0 +1,9 @@
+a[title]{
+    color: red;
+}
+a[title='item 1']{
+    color: lime;
+}
+a[class*="btn"]{
+
+}

@@ -323,6 +323,26 @@ https://www.schoolofnet.com/curso-css-basico-rev2/
 
 ## <a name="parte9">Folhas de estilos externas</a>
 
+```html
+    <link rel="stylesheet" href="style.css">
+```
+```css
+@import "botoes.css";
+/*reset*/
+* {
+    border: 1px solid red;
+}
+
+
+header + main{
+    border: 5px solid blue;
+}
+
+header ~ main{ /* menos restritivo */
+    border: 5px solid blue;
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
