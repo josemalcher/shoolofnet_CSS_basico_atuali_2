@@ -516,6 +516,47 @@ nav.horizontal ul li{
 
 ## <a name="parte15">Exemplo prático formulário</a>
 
+```css
+input[type="text"] {
+    background: #fff;
+    border: 3px dashed teal;
+    padding: 10px 20px;
+    width: 300px;
+    margin: 5px 0 10px 0;
+    color: #777;
+    display: block;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type="text"]:focus {
+    border: 3px dashed tomato;
+    transition: all .5s ease;
+}
+```
+
+```html
+<form action="">
+    <div>
+        <label for="">Nome</label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="">Email</label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="">Telefone</label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="">Assunto</label>
+        <input type="text">
+    </div>
+    <input type="submit" value="Enviar" class="btn btn-green">
+</form>
+```
 
 [Voltar ao Índice](#indice)
 
